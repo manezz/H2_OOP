@@ -1,0 +1,12 @@
+C:\Users\Tec\source\repos\PACM.BL\PACM.BL\bin\Debug\net5.0\PACM.BL.deps.json
+C:\Users\Tec\source\repos\PACM.BL\PACM.BL\bin\Debug\net5.0\PACM.BL.dll
+C:\Users\Tec\source\repos\PACM.BL\PACM.BL\bin\Debug\net5.0\ref\PACM.BL.dll
+C:\Users\Tec\source\repos\PACM.BL\PACM.BL\bin\Debug\net5.0\PACM.BL.pdb
+C:\Users\Tec\source\repos\PACM.BL\PACM.BL\obj\Debug\net5.0\PACM.BL.csproj.AssemblyReference.cache
+C:\Users\Tec\source\repos\PACM.BL\PACM.BL\obj\Debug\net5.0\PACM.BL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tec\source\repos\PACM.BL\PACM.BL\obj\Debug\net5.0\PACM.BL.AssemblyInfoInputs.cache
+C:\Users\Tec\source\repos\PACM.BL\PACM.BL\obj\Debug\net5.0\PACM.BL.AssemblyInfo.cs
+C:\Users\Tec\source\repos\PACM.BL\PACM.BL\obj\Debug\net5.0\PACM.BL.csproj.CoreCompileInputs.cache
+C:\Users\Tec\source\repos\PACM.BL\PACM.BL\obj\Debug\net5.0\PACM.BL.dll
+C:\Users\Tec\source\repos\PACM.BL\PACM.BL\obj\Debug\net5.0\ref\PACM.BL.dll
+C:\Users\Tec\source\repos\PACM.BL\PACM.BL\obj\Debug\net5.0\PACM.BL.pdb

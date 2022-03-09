@@ -1,0 +1,15 @@
+C:\Users\Tec\source\repos\Loop_H2\Loop_H2\bin\Debug\net6.0\Loop_H2.exe
+C:\Users\Tec\source\repos\Loop_H2\Loop_H2\bin\Debug\net6.0\Loop_H2.deps.json
+C:\Users\Tec\source\repos\Loop_H2\Loop_H2\bin\Debug\net6.0\Loop_H2.runtimeconfig.json
+C:\Users\Tec\source\repos\Loop_H2\Loop_H2\bin\Debug\net6.0\Loop_H2.dll
+C:\Users\Tec\source\repos\Loop_H2\Loop_H2\bin\Debug\net6.0\ref\Loop_H2.dll
+C:\Users\Tec\source\repos\Loop_H2\Loop_H2\bin\Debug\net6.0\Loop_H2.pdb
+C:\Users\Tec\source\repos\Loop_H2\Loop_H2\obj\Debug\net6.0\Loop_H2.csproj.AssemblyReference.cache
+C:\Users\Tec\source\repos\Loop_H2\Loop_H2\obj\Debug\net6.0\Loop_H2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tec\source\repos\Loop_H2\Loop_H2\obj\Debug\net6.0\Loop_H2.AssemblyInfoInputs.cache
+C:\Users\Tec\source\repos\Loop_H2\Loop_H2\obj\Debug\net6.0\Loop_H2.AssemblyInfo.cs
+C:\Users\Tec\source\repos\Loop_H2\Loop_H2\obj\Debug\net6.0\Loop_H2.csproj.CoreCompileInputs.cache
+C:\Users\Tec\source\repos\Loop_H2\Loop_H2\obj\Debug\net6.0\Loop_H2.dll
+C:\Users\Tec\source\repos\Loop_H2\Loop_H2\obj\Debug\net6.0\ref\Loop_H2.dll
+C:\Users\Tec\source\repos\Loop_H2\Loop_H2\obj\Debug\net6.0\Loop_H2.pdb
+C:\Users\Tec\source\repos\Loop_H2\Loop_H2\obj\Debug\net6.0\Loop_H2.genruntimeconfig.cache
