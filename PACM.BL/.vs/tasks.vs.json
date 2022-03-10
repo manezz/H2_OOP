@@ -1,0 +1,10 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "task-net5",
+      "appliesTo": "PACM.BL/obj/Debug/net5.0/",
+      "type": "launch"
+    }
+  ]
+}
