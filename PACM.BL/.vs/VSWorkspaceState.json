@@ -1,14 +1,6 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\PACM.BL",
-    "\\PACM.BL\\bin",
-    "\\PACM.BL\\obj",
-    "\\Tests",
-    "\\Tests\\PACM.BL.Test",
-    "\\Tests\\PACM.BL.Test\\obj",
-    "\\Tests\\PACM.BL.Test\\obj\\Debug"
+    ""
   ],
-  "SelectedNode": "\\Tests\\PACM.BL.Test\\obj\\Debug\\net5.0",
   "PreviewInSolutionExplorer": false
 }
