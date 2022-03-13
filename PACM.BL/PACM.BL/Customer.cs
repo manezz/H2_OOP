@@ -21,6 +21,7 @@ namespace PACM.BL
         public Address HomeAddress { get; set; }
 
         public int CustomerId { get; private set; }
+        public int CustomerType { get; set; }
         public string EmailAddress { get; set; }
 
         public string FirstName { get; set; }
@@ -54,6 +55,8 @@ namespace PACM.BL
                 _lastName = value;
             }
         }
+
+        public override string ToString() => FullName;
 
         public bool Validate()
         {

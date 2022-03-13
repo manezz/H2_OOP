@@ -8,7 +8,7 @@ namespace PACM.BL
 {
     public class Order
     {
-        public Order()
+        public Order() : this(0)
         {
 
         }
@@ -16,10 +16,16 @@ namespace PACM.BL
         public Order(int orderId)
         {
             OrderId = orderId;
+            OrderItems = new List<OrderItem>();
         }
 
+        public int CustomerId { get; set; }
         public DateTimeOffset? OrderDate { get; set; }
         public int OrderId { get; private set; }
+        public List<OrderItem> OrderItems { get; set; }
+        public int ShippingAddress { get; set; }
+
+        public override string ToString() => $"{OrderDate.Value.Date} ({OrderId})";
 
         public bool Validate()
         {

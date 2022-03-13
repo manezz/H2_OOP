@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PACM.BL
 {
-    public class Product
+    public class Product : EntityBase
     {
         public Product()
         {
@@ -23,7 +23,9 @@ namespace PACM.BL
         public int ProductId { get; private set; }
         public string ProductName { get; set; }
 
-        public bool Validate()
+        public override string ToString() => ProductName;
+
+        public override bool Validate()
         {
             var isValid = true;
 

@@ -23,8 +23,28 @@ namespace PACM.BL
 
         public bool Save(Product product)
         {
+            var success = true;
 
-            return true;
+            if (product.HasChanged)
+            {
+                if (product.IsValid)
+                {
+                    if (product.IsNew)
+                    {
+
+                    }
+                    else
+                    {
+
+                    }
+                }
+                else
+                {
+                    success = false;
+                }
+            }
+
+            return success;
         }
 
     }

@@ -28,5 +28,41 @@ namespace PACM.BL.Test
             Assert.AreEqual(expected.ProductDescription, actual.ProductDescription);
             Assert.AreEqual(expected.ProductName, actual.ProductName);
         }
+
+        [TestMethod()]
+        public void SaveTestValid()
+        {
+            var productRepository = new ProductRepository();
+            var updatedProduct = new Product(2)
+            {
+                CurrentPrice = 18M,
+                ProductDescription = "Assorted Size Set of 4 Bright Yellow Mini Sunflowers",
+                ProductName = "Sunflowers",
+                HasChanged = true
+            };
+
+            var actual = productRepository.Save(updatedProduct);
+
+            Assert.AreEqual(true, actual);
+        }
+
+        [TestMethod()]
+        public void SaveTestMissingPrice()
+        {
+            var productRepository = new ProductRepository();
+            var updatedProduct = new Product(2)
+            {
+                CurrentPrice = null,
+                ProductDescription = "Assorted Size Set of 4 Bright Yellow Mini Sunflowers",
+                ProductName = "Sunflowers",
+                HasChanged = true
+            };
+
+            var actual = productRepository.Save(updatedProduct);
+
+            Assert.AreEqual(false, actual);
+
+        }
+
     }
 }
