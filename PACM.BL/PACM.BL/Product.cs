@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace PACM.BL
 {
-    public class Product : EntityBase
+    public class Product : EntityBase, ILoggable
     {
         public Product()
         {
@@ -28,12 +28,15 @@ namespace PACM.BL
         {
             get
             {
-                return StringHandler.InsertSpaces(_productName);
+                //return StringHandler.InsertSpaces(_productName);
+                return _productName.InsertSpaces();
             }
             set { _productName = value; }
         }
 
         public override string ToString() => ProductName;
+
+        public string Log() => $"{ProductId}: {ProductName} Detail: {ProductDescription} Status: {EntityState.ToString()}";
 
         public override bool Validate()
         {

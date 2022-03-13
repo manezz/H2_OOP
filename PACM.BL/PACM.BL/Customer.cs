@@ -1,9 +1,10 @@
-﻿using System;
+﻿using PACME.Common;
+using System;
 using System.Collections.Generic;
 
 namespace PACM.BL
 {
-    public class Customer
+    public class Customer : EntityBase, ILoggable
     {
         public Customer(): this(0)
         {
@@ -58,7 +59,9 @@ namespace PACM.BL
 
         public override string ToString() => FullName;
 
-        public bool Validate()
+        public string Log() => $"{CustomerId}: {FullName} Email: {EmailAddress} Status: {EntityState.ToString()}";
+
+        public override bool Validate()
         {
             var isValid = true;
 

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PACME.Common;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace PACM.BL
 {
-    public class Order
+    public class Order : EntityBase, ILoggable
     {
         public Order() : this(0)
         {
@@ -25,9 +26,9 @@ namespace PACM.BL
         public List<OrderItem> OrderItems { get; set; }
         public int ShippingAddress { get; set; }
 
-        public override string ToString() => $"{OrderDate.Value.Date} ({OrderId})";
+        public string Log() => $"{OrderId}: Date: {this.OrderDate.Value.Date} Status: {this.EntityState.ToString()}";
 
-        public bool Validate()
+        public override bool Validate()
         {
             var isValid = true;
 
