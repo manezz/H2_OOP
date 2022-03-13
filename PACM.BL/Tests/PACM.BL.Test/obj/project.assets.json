@@ -1664,11 +1664,24 @@
       "PACM.BL/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "PACME.Common": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/PACM.BL.dll": {}
         },
         "runtime": {
           "bin/placeholder/PACM.BL.dll": {}
+        }
+      },
+      "PACME.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/PACME.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PACME.Common.dll": {}
         }
       }
     }
@@ -6118,6 +6131,11 @@
       "type": "project",
       "path": "../../PACM.BL/PACM.BL.csproj",
       "msbuildProject": "../../PACM.BL/PACM.BL.csproj"
+    },
+    "PACME.Common/1.0.0": {
+      "type": "project",
+      "path": "../../PACME.Common/PACME.Common.csproj",
+      "msbuildProject": "../../PACME.Common/PACME.Common.csproj"
     }
   },
   "projectFileDependencyGroups": {

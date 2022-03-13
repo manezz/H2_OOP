@@ -34,3 +34,6 @@ C:\Users\Magnu\Source\Repos\H2_OOP\PACM.BL\PACM.BL\obj\Debug\net5.0\PACM.BL.cspr
 C:\Users\Magnu\Source\Repos\H2_OOP\PACM.BL\PACM.BL\obj\Debug\net5.0\PACM.BL.dll
 C:\Users\Magnu\Source\Repos\H2_OOP\PACM.BL\PACM.BL\obj\Debug\net5.0\ref\PACM.BL.dll
 C:\Users\Magnu\Source\Repos\H2_OOP\PACM.BL\PACM.BL\obj\Debug\net5.0\PACM.BL.pdb
+C:\Users\Magnu\Source\Repos\H2_OOP\PACM.BL\PACM.BL\bin\Debug\net5.0\PACME.Common.dll
+C:\Users\Magnu\Source\Repos\H2_OOP\PACM.BL\PACM.BL\bin\Debug\net5.0\PACME.Common.pdb
+C:\Users\Magnu\Source\Repos\H2_OOP\PACM.BL\PACM.BL\obj\Debug\net5.0\PACM.BL.csproj.CopyComplete

@@ -2,9 +2,9 @@
 
 namespace PACME.Common
 {
-    public class StringHandler
+    public static class StringHandler
     {
-        public string InsertSpaces(string source)
+        public static string InsertSpaces(string source)
         {
             string result = string.Empty;
 
@@ -14,7 +14,7 @@ namespace PACME.Common
                 {
                     if (char.IsUpper(letter))
                     {
-                        result = result.Trim();
+                         result = result.Trim();
                         result += " ";
                     }
                     result += letter;

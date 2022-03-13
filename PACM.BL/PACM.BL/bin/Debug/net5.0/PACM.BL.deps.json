@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v5.0": {
       "PACM.BL/1.0.0": {
+        "dependencies": {
+          "PACME.Common": "1.0.0"
+        },
         "runtime": {
           "PACM.BL.dll": {}
+        }
+      },
+      "PACME.Common/1.0.0": {
+        "runtime": {
+          "PACME.Common.dll": {}
         }
       }
     }
   },
   "libraries": {
     "PACM.BL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PACME.Common/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

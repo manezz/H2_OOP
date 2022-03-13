@@ -11,9 +11,8 @@ namespace PACME.CommonTest
         {
             var source = "SonicScrewdriver";
             var expected = "Sonic Screwdriver";
-            var handler = new StringHandler();
 
-            var acutal = handler.InsertSpaces(source);
+            var acutal = StringHandler.InsertSpaces(source);
 
             Assert.AreEqual(expected, acutal);
         }
@@ -23,9 +22,8 @@ namespace PACME.CommonTest
         {
             var source = "Sonic Screwdriver";
             var expected = "Sonic Screwdriver";
-            var handler = new StringHandler();
 
-            var actual = handler.InsertSpaces(source);
+            var actual = StringHandler.InsertSpaces(source);
 
             Assert.AreEqual(expected, actual);
         }

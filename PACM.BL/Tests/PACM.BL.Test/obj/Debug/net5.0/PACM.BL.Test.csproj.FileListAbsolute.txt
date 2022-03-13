@@ -304,3 +304,5 @@ C:\Users\Magnu\Source\Repos\H2_OOP\PACM.BL\Tests\PACM.BL.Test\obj\Debug\net5.0\P
 C:\Users\Magnu\Source\Repos\H2_OOP\PACM.BL\Tests\PACM.BL.Test\obj\Debug\net5.0\ref\PACM.BL.Test.dll
 C:\Users\Magnu\Source\Repos\H2_OOP\PACM.BL\Tests\PACM.BL.Test\obj\Debug\net5.0\PACM.BL.Test.pdb
 C:\Users\Magnu\Source\Repos\H2_OOP\PACM.BL\Tests\PACM.BL.Test\obj\Debug\net5.0\PACM.BL.Test.genruntimeconfig.cache
+C:\Users\Magnu\Source\Repos\H2_OOP\PACM.BL\Tests\PACM.BL.Test\bin\Debug\net5.0\PACME.Common.dll
+C:\Users\Magnu\Source\Repos\H2_OOP\PACM.BL\Tests\PACM.BL.Test\bin\Debug\net5.0\PACME.Common.pdb

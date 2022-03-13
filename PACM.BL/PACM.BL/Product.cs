@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PACME.Common;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -25,7 +26,10 @@ namespace PACM.BL
 
         public string ProductName
         {
-            get { return _productName; }
+            get
+            {
+                return StringHandler.InsertSpaces(_productName);
+            }
             set { _productName = value; }
         }
 

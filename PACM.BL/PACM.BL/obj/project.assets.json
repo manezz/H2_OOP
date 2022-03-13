@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net5.0": {
+      "PACME.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/PACME.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PACME.Common.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "PACME.Common/1.0.0": {
+      "type": "project",
+      "path": "../PACME.Common/PACME.Common.csproj",
+      "msbuildProject": "../PACME.Common/PACME.Common.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net5.0": [
+      "PACME.Common >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Magnu\\.nuget\\packages\\": {},
@@ -38,7 +57,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Magnu\\Source\\Repos\\H2_OOP\\PACM.BL\\PACME.Common\\PACME.Common.csproj": {
+              "projectPath": "C:\\Users\\Magnu\\Source\\Repos\\H2_OOP\\PACM.BL\\PACME.Common\\PACME.Common.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

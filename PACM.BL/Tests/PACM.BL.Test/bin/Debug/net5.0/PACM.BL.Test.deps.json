@@ -1078,8 +1078,16 @@
         }
       },
       "PACM.BL/1.0.0": {
+        "dependencies": {
+          "PACME.Common": "1.0.0"
+        },
         "runtime": {
           "PACM.BL.dll": {}
+        }
+      },
+      "PACME.Common/1.0.0": {
+        "runtime": {
+          "PACME.Common.dll": {}
         }
       }
     }
@@ -1707,6 +1715,11 @@
       "hashPath": "system.xml.xdocument.4.3.0.nupkg.sha512"
     },
     "PACM.BL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PACME.Common/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
